@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "334FC902C2F52D5C78C65B00"
+               BlueprintIdentifier = "E7E579979CD3CA4139355E9C"
                BuildableName = "LineHeightTool.framework"
                BlueprintName = "LineHeightTool"
                ReferencedContainer = "container:Pods.xcodeproj">

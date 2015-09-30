@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LineHeightTool: 4a03f418a8a3629253d538e9f44fc65e73b63893
+  LineHeightTool: 10543f120ac152d57fc1e22de55b7c24cabce8b4
 
 COCOAPODS: 0.38.2

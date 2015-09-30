@@ -7,94 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10D9F8F34F40B8F5BE6EA9E338CBEA06 /* LineHeightTool.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 93A7F0D17F09B12F376D4B955F122AD0 /* LineHeightTool.bundle */; };
-		153967868F9EDE24BCC20B6C7D742348 /* LineHeightTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A92B58B20C2610BB538455DEB8FBF775 /* LineHeightTool-dummy.m */; };
+		289DC67F2D7549F9EBAA455260AA3887 /* LineHeightConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FA8817AAB5CD1428D582F8F2FB2700 /* LineHeightConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF9830FE024B7A410B99E0BD92A09D6 /* NSString+Height.h in Headers */ = {isa = PBXBuildFile; fileRef = FA78549FFA8F443A84F22375A9C0728C /* NSString+Height.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		367982B817AA23EB45A96D97EFA36A00 /* UILabelWithFexibleHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = 291996643E7714599239F7902ECC70E3 /* UILabelWithFexibleHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BED71EC64B17A99E02DD8984DE33EFF /* LineHeightTool.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5CC8B00B7B3C53C0C178ADC07B4EF8B6 /* LineHeightTool.bundle */; };
 		45683EBB83A735DDE843D66F1BF6998F /* Pods-LineHeightTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F287A11937C77ADE7FB0B008D3F2B272 /* Pods-LineHeightTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		656C17452849AC754A6C16C540D57097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC72E66C95973C8E4FFB0C23BB257BA4 /* Foundation.framework */; };
+		7A64E2249CA8F76BDC3E18B654C41C0A /* LineHeightTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A40CB59B56F642EAC62805A4D2E1D9C /* LineHeightTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C5DBD9B4398AC0A1312E483481FA08F /* Pods-LineHeightTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27452546A3D6B1B22A2A5BA525DE0757 /* Pods-LineHeightTool_Example-dummy.m */; };
-		AE1E5B4CF77B7C74361A1E6E5F0A7CED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC72E66C95973C8E4FFB0C23BB257BA4 /* Foundation.framework */; };
-		CED48A3E1BBBF70F003728E0 /* NSString+Height.h in Headers */ = {isa = PBXBuildFile; fileRef = CED48A3A1BBBF70F003728E0 /* NSString+Height.h */; settings = {ASSET_TAGS = (); }; };
-		CED48A3F1BBBF70F003728E0 /* NSString+Height.m in Sources */ = {isa = PBXBuildFile; fileRef = CED48A3B1BBBF70F003728E0 /* NSString+Height.m */; settings = {ASSET_TAGS = (); }; };
-		CED48A401BBBF70F003728E0 /* UILabelWithFexibleHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = CED48A3C1BBBF70F003728E0 /* UILabelWithFexibleHeight.h */; settings = {ASSET_TAGS = (); }; };
-		CED48A411BBBF70F003728E0 /* UILabelWithFexibleHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = CED48A3D1BBBF70F003728E0 /* UILabelWithFexibleHeight.m */; settings = {ASSET_TAGS = (); }; };
-		CED48A431BBBFAE0003728E0 /* LineHeightConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = CED48A421BBBFAE0003728E0 /* LineHeightConstant.h */; settings = {ASSET_TAGS = (); }; };
+		810933CAE42E26F165D26DC48FA393BD /* LineHeightTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C842D93B468ACC680F81060FC24F0354 /* LineHeightTool-dummy.m */; };
+		8EE254359E4EAB720986A8340FA2E925 /* NSString+Height.m in Sources */ = {isa = PBXBuildFile; fileRef = E419FDF939AE7BA4967FCC20942B4DC8 /* NSString+Height.m */; };
+		9A3A2F20CADF18013AF0F31F7D615746 /* UILabelWithFexibleHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = BB335B3908BB0E5D097F68DF559E88CE /* UILabelWithFexibleHeight.m */; };
+		AE1E5B4CF77B7C74361A1E6E5F0A7CED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED88BC5B545E30A1E03F4462A3105C93 /* Foundation.framework */; };
+		B2BF3D39202068A9A65B1DDF64AB89CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED88BC5B545E30A1E03F4462A3105C93 /* Foundation.framework */; };
 		DBF25D9000E9806E0EBE26D7878811D8 /* Pods-LineHeightTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9C6D3B21969E986CA9861E07AF121EA /* Pods-LineHeightTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB1D482D6030BA1EC5A88FED449F23EB /* LineHeightTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FB157AB4C82F74191D542BA2BE3255 /* LineHeightTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED40081170458FE7879EC34B1A5E5EDE /* Pods-LineHeightTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A340DAE97842614F34E4AF8DF36CB0A6 /* Pods-LineHeightTool_Tests-dummy.m */; };
-		ED66A36979F7090C47E9BED3C129905C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC72E66C95973C8E4FFB0C23BB257BA4 /* Foundation.framework */; };
+		ED66A36979F7090C47E9BED3C129905C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED88BC5B545E30A1E03F4462A3105C93 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		703B1AA21CA86AD4B441A9EA557571C6 /* PBXContainerItemProxy */ = {
+		47FB132162C227949AAD1CB826E23FD6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 89D895D040531F079E79520373CABC24;
-			remoteInfo = LineHeightTool;
-		};
-		8D325D27161D4665F22E3E61282F7BDC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 820320298A03C1EF101F2A6B7A4F24E8;
+			remoteGlobalIDString = 84878AA1D9962002993CE365B8D9EAA6;
 			remoteInfo = "LineHeightTool-LineHeightTool";
 		};
-		FB6FEE73DB9C3EC749E28A39873AC490 /* PBXContainerItemProxy */ = {
+		A6D42318E5DBD6545825D40E67C40B9D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 89D895D040531F079E79520373CABC24;
+			remoteGlobalIDString = 474C7AA0882FCABB17513161ABDE1789;
+			remoteInfo = LineHeightTool;
+		};
+		BBE9A277E1BA32BD443FCDCE60D8CFA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 474C7AA0882FCABB17513161ABDE1789;
 			remoteInfo = LineHeightTool;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11DEB87A08FD1B891C1167E69AB77DA5 /* Pods-LineHeightTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LineHeightTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		143ABBCD3004F675458FD7D244097E6A /* LineHeightTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LineHeightTool.xcconfig; sourceTree = "<group>"; };
+		1A40CB59B56F642EAC62805A4D2E1D9C /* LineHeightTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LineHeightTool-umbrella.h"; sourceTree = "<group>"; };
 		235B14E804C9309F70DE8C153CE0B60B /* LineHeightTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LineHeightTool.modulemap; sourceTree = "<group>"; };
+		244CEC221404E591F1D94AB2FFB033F8 /* LineHeightTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LineHeightTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27452546A3D6B1B22A2A5BA525DE0757 /* Pods-LineHeightTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LineHeightTool_Example-dummy.m"; sourceTree = "<group>"; };
+		291996643E7714599239F7902ECC70E3 /* UILabelWithFexibleHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UILabelWithFexibleHeight.h; sourceTree = "<group>"; };
+		32CEBC03940A715690294A5DC650C795 /* Pods-LineHeightTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LineHeightTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		379C5892C00133603E34871A3AE96D1C /* Pods-LineHeightTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LineHeightTool_Example.modulemap"; sourceTree = "<group>"; };
+		44FA8817AAB5CD1428D582F8F2FB2700 /* LineHeightConstant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LineHeightConstant.h; sourceTree = "<group>"; };
 		4F2B435F8CDAF3A4C888119FE6E3DEA8 /* Pods-LineHeightTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LineHeightTool_Tests.modulemap"; sourceTree = "<group>"; };
-		60FB157AB4C82F74191D542BA2BE3255 /* LineHeightTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LineHeightTool-umbrella.h"; sourceTree = "<group>"; };
+		5CC8B00B7B3C53C0C178ADC07B4EF8B6 /* LineHeightTool.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LineHeightTool.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6810519892E80C3F7F4ECCBA6D3ABDEC /* Pods-LineHeightTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LineHeightTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C4AE9CDAFA6FDFE99331A6D18D88F7F /* Pods-LineHeightTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LineHeightTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		73CAAE666AFCFE86D4669292A0B584A9 /* Pods-LineHeightTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LineHeightTool_Example-resources.sh"; sourceTree = "<group>"; };
 		7808EF5833757AD85F826A35F741AE14 /* LineHeightTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LineHeightTool-prefix.pch"; sourceTree = "<group>"; };
-		7F33C3F1C87A1B7865A2D68C9B819411 /* Pods-LineHeightTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LineHeightTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		81350051C842B2DB97855E7C81B9F992 /* Pods-LineHeightTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LineHeightTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		899BA30A307D985F933AC86FACEC7F91 /* Pods-LineHeightTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LineHeightTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8C03CF5DE4742893DA382AA6A271A772 /* Pods-LineHeightTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LineHeightTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8F80699F2F9F0CD795449F4CAF681FBC /* Pods_LineHeightTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LineHeightTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		905C24DDCD4B759D9E704C5A239014F7 /* Pods-LineHeightTool_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LineHeightTool_Tests-resources.sh"; sourceTree = "<group>"; };
 		9247C3EF0201D053CC37D7AF3B075E89 /* Pods-LineHeightTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LineHeightTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A7F0D17F09B12F376D4B955F122AD0 /* LineHeightTool.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LineHeightTool.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F5E404A556B0D11167C23AC1586432 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2B9443E9CAA7641AEF4910E07259899 /* LineHeightTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LineHeightTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A340DAE97842614F34E4AF8DF36CB0A6 /* Pods-LineHeightTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LineHeightTool_Tests-dummy.m"; sourceTree = "<group>"; };
-		A92B58B20C2610BB538455DEB8FBF775 /* LineHeightTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LineHeightTool-dummy.m"; sourceTree = "<group>"; };
 		A9C6D3B21969E986CA9861E07AF121EA /* Pods-LineHeightTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LineHeightTool_Tests-umbrella.h"; sourceTree = "<group>"; };
 		ADCA3831AC24A3B9DFAA52BA87A0B4C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BB2B2F1D364A071298BFFAF4B980B350 /* LineHeightTool-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LineHeightTool-Private.xcconfig"; sourceTree = "<group>"; };
+		BB335B3908BB0E5D097F68DF559E88CE /* UILabelWithFexibleHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UILabelWithFexibleHeight.m; sourceTree = "<group>"; };
 		BCF861163E60D428CE92661D7A06C64B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C22425DB0BDFE710B3A715E5BCC5283A /* Pods-LineHeightTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LineHeightTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C2D19F32F03859D5203E2E3B103E4D60 /* Pods-LineHeightTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LineHeightTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C365615F93C58BE1FF54A0DCFD6C2D92 /* Pods-LineHeightTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LineHeightTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CED48A3A1BBBF70F003728E0 /* NSString+Height.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Height.h"; sourceTree = "<group>"; };
-		CED48A3B1BBBF70F003728E0 /* NSString+Height.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Height.m"; sourceTree = "<group>"; };
-		CED48A3C1BBBF70F003728E0 /* UILabelWithFexibleHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelWithFexibleHeight.h; sourceTree = "<group>"; };
-		CED48A3D1BBBF70F003728E0 /* UILabelWithFexibleHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelWithFexibleHeight.m; sourceTree = "<group>"; };
-		CED48A421BBBFAE0003728E0 /* LineHeightConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineHeightConstant.h; sourceTree = "<group>"; };
+		C842D93B468ACC680F81060FC24F0354 /* LineHeightTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LineHeightTool-dummy.m"; sourceTree = "<group>"; };
 		D50C1E8A189F83AD72C7371CDCFEF9F2 /* Pods-LineHeightTool_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LineHeightTool_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		DC72E66C95973C8E4FFB0C23BB257BA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DF8FC0F7873D87458EF9ACAF3D4FC206 /* Pods_LineHeightTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LineHeightTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA418036DBA89AE48E357A208449C4C /* LineHeightTool-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LineHeightTool-Private.xcconfig"; sourceTree = "<group>"; };
+		E419FDF939AE7BA4967FCC20942B4DC8 /* NSString+Height.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Height.m"; sourceTree = "<group>"; };
+		ED88BC5B545E30A1E03F4462A3105C93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F287A11937C77ADE7FB0B008D3F2B272 /* Pods-LineHeightTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LineHeightTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		FA78549FFA8F443A84F22375A9C0728C /* NSString+Height.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Height.h"; sourceTree = "<group>"; };
+		FB4B0F94079948C62A193519719B3553 /* Pods-LineHeightTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LineHeightTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		58E115F7FD4A645CCFF93DEEF432AECC /* Frameworks */ = {
+		79049CDF5D75831EE51E5373FCC87216 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				656C17452849AC754A6C16C540D57097 /* Foundation.framework in Frameworks */,
+				B2BF3D39202068A9A65B1DDF64AB89CC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +114,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0B8AE93E8DBA43554351C94C8277DB4 /* Frameworks */ = {
+		FDC1654565EDAC703F0623C505903161 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -135,19 +135,11 @@
 				81350051C842B2DB97855E7C81B9F992 /* Pods-LineHeightTool_Example-frameworks.sh */,
 				73CAAE666AFCFE86D4669292A0B584A9 /* Pods-LineHeightTool_Example-resources.sh */,
 				F287A11937C77ADE7FB0B008D3F2B272 /* Pods-LineHeightTool_Example-umbrella.h */,
-				11DEB87A08FD1B891C1167E69AB77DA5 /* Pods-LineHeightTool_Example.debug.xcconfig */,
-				C365615F93C58BE1FF54A0DCFD6C2D92 /* Pods-LineHeightTool_Example.release.xcconfig */,
+				FB4B0F94079948C62A193519719B3553 /* Pods-LineHeightTool_Example.debug.xcconfig */,
+				899BA30A307D985F933AC86FACEC7F91 /* Pods-LineHeightTool_Example.release.xcconfig */,
 			);
 			name = "Pods-LineHeightTool_Example";
 			path = "Target Support Files/Pods-LineHeightTool_Example";
-			sourceTree = "<group>";
-		};
-		1D54AB6E61591390D3FEBD628E9447AA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E60FA40B08550402692F0CB93E243E00 /* Classes */,
-			);
-			path = Pod;
 			sourceTree = "<group>";
 		};
 		27E269218B65D90631B0A7588E97D0E1 /* Targets Support Files */ = {
@@ -162,7 +154,7 @@
 		28E9C67FAA1D1E7AB604DCC1DC2CF299 /* LineHeightTool */ = {
 			isa = PBXGroup;
 			children = (
-				1D54AB6E61591390D3FEBD628E9447AA /* Pod */,
+				6789E8CCFC719011738DB4DC60393D9A /* Pod */,
 				8FF0CEA381A4F1EF7FABADC215F326C3 /* Support Files */,
 			);
 			name = LineHeightTool;
@@ -172,7 +164,7 @@
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				DC72E66C95973C8E4FFB0C23BB257BA4 /* Foundation.framework */,
+				ED88BC5B545E30A1E03F4462A3105C93 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -183,6 +175,26 @@
 				28E9C67FAA1D1E7AB604DCC1DC2CF299 /* LineHeightTool */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6789E8CCFC719011738DB4DC60393D9A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				70ACD5D21954B5E1F55F088840DE560E /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		70ACD5D21954B5E1F55F088840DE560E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				44FA8817AAB5CD1428D582F8F2FB2700 /* LineHeightConstant.h */,
+				FA78549FFA8F443A84F22375A9C0728C /* NSString+Height.h */,
+				E419FDF939AE7BA4967FCC20942B4DC8 /* NSString+Height.m */,
+				291996643E7714599239F7902ECC70E3 /* UILabelWithFexibleHeight.h */,
+				BB335B3908BB0E5D097F68DF559E88CE /* UILabelWithFexibleHeight.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -202,10 +214,10 @@
 				BCF861163E60D428CE92661D7A06C64B /* Info.plist */,
 				235B14E804C9309F70DE8C153CE0B60B /* LineHeightTool.modulemap */,
 				143ABBCD3004F675458FD7D244097E6A /* LineHeightTool.xcconfig */,
-				BB2B2F1D364A071298BFFAF4B980B350 /* LineHeightTool-Private.xcconfig */,
-				A92B58B20C2610BB538455DEB8FBF775 /* LineHeightTool-dummy.m */,
+				DFA418036DBA89AE48E357A208449C4C /* LineHeightTool-Private.xcconfig */,
+				C842D93B468ACC680F81060FC24F0354 /* LineHeightTool-dummy.m */,
 				7808EF5833757AD85F826A35F741AE14 /* LineHeightTool-prefix.pch */,
-				60FB157AB4C82F74191D542BA2BE3255 /* LineHeightTool-umbrella.h */,
+				1A40CB59B56F642EAC62805A4D2E1D9C /* LineHeightTool-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LineHeightTool";
@@ -222,24 +234,12 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				93A7F0D17F09B12F376D4B955F122AD0 /* LineHeightTool.bundle */,
-				A2B9443E9CAA7641AEF4910E07259899 /* LineHeightTool.framework */,
+				5CC8B00B7B3C53C0C178ADC07B4EF8B6 /* LineHeightTool.bundle */,
+				244CEC221404E591F1D94AB2FFB033F8 /* LineHeightTool.framework */,
 				8F80699F2F9F0CD795449F4CAF681FBC /* Pods_LineHeightTool_Example.framework */,
 				DF8FC0F7873D87458EF9ACAF3D4FC206 /* Pods_LineHeightTool_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E60FA40B08550402692F0CB93E243E00 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				CED48A3A1BBBF70F003728E0 /* NSString+Height.h */,
-				CED48A3B1BBBF70F003728E0 /* NSString+Height.m */,
-				CED48A3C1BBBF70F003728E0 /* UILabelWithFexibleHeight.h */,
-				CED48A3D1BBBF70F003728E0 /* UILabelWithFexibleHeight.m */,
-				CED48A421BBBFAE0003728E0 /* LineHeightConstant.h */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		F1A18300ADF697CAA4541800DDCEFE76 /* Pods-LineHeightTool_Tests */ = {
@@ -253,8 +253,8 @@
 				D50C1E8A189F83AD72C7371CDCFEF9F2 /* Pods-LineHeightTool_Tests-frameworks.sh */,
 				905C24DDCD4B759D9E704C5A239014F7 /* Pods-LineHeightTool_Tests-resources.sh */,
 				A9C6D3B21969E986CA9861E07AF121EA /* Pods-LineHeightTool_Tests-umbrella.h */,
-				7F33C3F1C87A1B7865A2D68C9B819411 /* Pods-LineHeightTool_Tests.debug.xcconfig */,
-				C2D19F32F03859D5203E2E3B103E4D60 /* Pods-LineHeightTool_Tests.release.xcconfig */,
+				32CEBC03940A715690294A5DC650C795 /* Pods-LineHeightTool_Tests.debug.xcconfig */,
+				6C4AE9CDAFA6FDFE99331A6D18D88F7F /* Pods-LineHeightTool_Tests.release.xcconfig */,
 			);
 			name = "Pods-LineHeightTool_Tests";
 			path = "Target Support Files/Pods-LineHeightTool_Tests";
@@ -271,14 +271,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C337EBF01E5725CCD5E1DE783981DD59 /* Headers */ = {
+		8356F04C0A6DA8C724EA8122B3B3F95B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB1D482D6030BA1EC5A88FED449F23EB /* LineHeightTool-umbrella.h in Headers */,
-				CED48A431BBBFAE0003728E0 /* LineHeightConstant.h in Headers */,
-				CED48A3E1BBBF70F003728E0 /* NSString+Height.h in Headers */,
-				CED48A401BBBF70F003728E0 /* UILabelWithFexibleHeight.h in Headers */,
+				289DC67F2D7549F9EBAA455260AA3887 /* LineHeightConstant.h in Headers */,
+				7A64E2249CA8F76BDC3E18B654C41C0A /* LineHeightTool-umbrella.h in Headers */,
+				2BF9830FE024B7A410B99E0BD92A09D6 /* NSString+Height.h in Headers */,
+				367982B817AA23EB45A96D97EFA36A00 /* UILabelWithFexibleHeight.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,13 +293,32 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		820320298A03C1EF101F2A6B7A4F24E8 /* LineHeightTool-LineHeightTool */ = {
+		474C7AA0882FCABB17513161ABDE1789 /* LineHeightTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3CF33A985513076B6D6937E36E04463B /* Build configuration list for PBXNativeTarget "LineHeightTool-LineHeightTool" */;
+			buildConfigurationList = DCD119E93CC806E1752B91F86F102377 /* Build configuration list for PBXNativeTarget "LineHeightTool" */;
 			buildPhases = (
-				FC5233E8ACCFD895A15081EA2FEDB810 /* Sources */,
-				F0B8AE93E8DBA43554351C94C8277DB4 /* Frameworks */,
-				27AF6D06F0FB4B16C1AC973BAC80630D /* Resources */,
+				D0AA41D3EE01124790A2042742484BFC /* Sources */,
+				79049CDF5D75831EE51E5373FCC87216 /* Frameworks */,
+				23364009F8F41FA7E26D5067FC64087B /* Resources */,
+				8356F04C0A6DA8C724EA8122B3B3F95B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34C3F6DD50890D7E296625FD1067780C /* PBXTargetDependency */,
+			);
+			name = LineHeightTool;
+			productName = LineHeightTool;
+			productReference = 244CEC221404E591F1D94AB2FFB033F8 /* LineHeightTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84878AA1D9962002993CE365B8D9EAA6 /* LineHeightTool-LineHeightTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1248AD233199B5A0D085880F0B426E24 /* Build configuration list for PBXNativeTarget "LineHeightTool-LineHeightTool" */;
+			buildPhases = (
+				86B4505F32D674A2C60763D63B964166 /* Sources */,
+				FDC1654565EDAC703F0623C505903161 /* Frameworks */,
+				D692BEB22039AFFA23669DCDCFB15630 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -307,27 +326,8 @@
 			);
 			name = "LineHeightTool-LineHeightTool";
 			productName = "LineHeightTool-LineHeightTool";
-			productReference = 93A7F0D17F09B12F376D4B955F122AD0 /* LineHeightTool.bundle */;
+			productReference = 5CC8B00B7B3C53C0C178ADC07B4EF8B6 /* LineHeightTool.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		89D895D040531F079E79520373CABC24 /* LineHeightTool */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 90B084878AAE8AEF39E29C1C824EDE7B /* Build configuration list for PBXNativeTarget "LineHeightTool" */;
-			buildPhases = (
-				FFA133E4A6E11809C0C5592E0E4B1622 /* Sources */,
-				58E115F7FD4A645CCFF93DEEF432AECC /* Frameworks */,
-				4962B1DB390CC76039B74599FF757031 /* Resources */,
-				C337EBF01E5725CCD5E1DE783981DD59 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E3A9B3FF356706E6540BF5EDA800105D /* PBXTargetDependency */,
-			);
-			name = LineHeightTool;
-			productName = LineHeightTool;
-			productReference = A2B9443E9CAA7641AEF4910E07259899 /* LineHeightTool.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		E3776A4ABC716520D3D5CE8DCAB2A6D3 /* Pods-LineHeightTool_Example */ = {
 			isa = PBXNativeTarget;
@@ -340,7 +340,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				51DAD7286E1460BB50B8ADCEA57C6936 /* PBXTargetDependency */,
+				4572C1F6596371B29461980F1041332A /* PBXTargetDependency */,
 			);
 			name = "Pods-LineHeightTool_Example";
 			productName = "Pods-LineHeightTool_Example";
@@ -358,7 +358,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				BA941F2600714C962CC8EA9EEEF739C5 /* PBXTargetDependency */,
+				1BBA628BCF8E6ED0E796D4AC70EAA5B7 /* PBXTargetDependency */,
 			);
 			name = "Pods-LineHeightTool_Tests";
 			productName = "Pods-LineHeightTool_Tests";
@@ -386,8 +386,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				89D895D040531F079E79520373CABC24 /* LineHeightTool */,
-				820320298A03C1EF101F2A6B7A4F24E8 /* LineHeightTool-LineHeightTool */,
+				474C7AA0882FCABB17513161ABDE1789 /* LineHeightTool */,
+				84878AA1D9962002993CE365B8D9EAA6 /* LineHeightTool-LineHeightTool */,
 				E3776A4ABC716520D3D5CE8DCAB2A6D3 /* Pods-LineHeightTool_Example */,
 				EB59D0A157CFADD606D365D26B80C3E6 /* Pods-LineHeightTool_Tests */,
 			);
@@ -395,18 +395,18 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		27AF6D06F0FB4B16C1AC973BAC80630D /* Resources */ = {
+		23364009F8F41FA7E26D5067FC64087B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BED71EC64B17A99E02DD8984DE33EFF /* LineHeightTool.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4962B1DB390CC76039B74599FF757031 /* Resources */ = {
+		D692BEB22039AFFA23669DCDCFB15630 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10D9F8F34F40B8F5BE6EA9E338CBEA06 /* LineHeightTool.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +421,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		86B4505F32D674A2C60763D63B964166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0AA41D3EE01124790A2042742484BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810933CAE42E26F165D26DC48FA393BD /* LineHeightTool-dummy.m in Sources */,
+				8EE254359E4EAB720986A8340FA2E925 /* NSString+Height.m in Sources */,
+				9A3A2F20CADF18013AF0F31F7D615746 /* UILabelWithFexibleHeight.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F3B32AECBBC443C0E7A1E80A91B412DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -429,48 +446,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC5233E8ACCFD895A15081EA2FEDB810 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FFA133E4A6E11809C0C5592E0E4B1622 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CED48A411BBBF70F003728E0 /* UILabelWithFexibleHeight.m in Sources */,
-				CED48A3F1BBBF70F003728E0 /* NSString+Height.m in Sources */,
-				153967868F9EDE24BCC20B6C7D742348 /* LineHeightTool-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		51DAD7286E1460BB50B8ADCEA57C6936 /* PBXTargetDependency */ = {
+		1BBA628BCF8E6ED0E796D4AC70EAA5B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LineHeightTool;
-			target = 89D895D040531F079E79520373CABC24 /* LineHeightTool */;
-			targetProxy = 703B1AA21CA86AD4B441A9EA557571C6 /* PBXContainerItemProxy */;
+			target = 474C7AA0882FCABB17513161ABDE1789 /* LineHeightTool */;
+			targetProxy = BBE9A277E1BA32BD443FCDCE60D8CFA8 /* PBXContainerItemProxy */;
 		};
-		BA941F2600714C962CC8EA9EEEF739C5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LineHeightTool;
-			target = 89D895D040531F079E79520373CABC24 /* LineHeightTool */;
-			targetProxy = FB6FEE73DB9C3EC749E28A39873AC490 /* PBXContainerItemProxy */;
-		};
-		E3A9B3FF356706E6540BF5EDA800105D /* PBXTargetDependency */ = {
+		34C3F6DD50890D7E296625FD1067780C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "LineHeightTool-LineHeightTool";
-			target = 820320298A03C1EF101F2A6B7A4F24E8 /* LineHeightTool-LineHeightTool */;
-			targetProxy = 8D325D27161D4665F22E3E61282F7BDC /* PBXContainerItemProxy */;
+			target = 84878AA1D9962002993CE365B8D9EAA6 /* LineHeightTool-LineHeightTool */;
+			targetProxy = 47FB132162C227949AAD1CB826E23FD6 /* PBXContainerItemProxy */;
+		};
+		4572C1F6596371B29461980F1041332A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LineHeightTool;
+			target = 474C7AA0882FCABB17513161ABDE1789 /* LineHeightTool */;
+			targetProxy = A6D42318E5DBD6545825D40E67C40B9D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+		052A17875CB827423D627183396CEB60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -497,14 +497,113 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+		15541B385492093416454C94933C3A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB4B0F94079948C62A193519719B3553 /* Pods-LineHeightTool_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LineHeightTool_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-LineHeightTool_Example/Pods-LineHeightTool_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LineHeightTool_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D386970F50F87CD05D21E08830246D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C4AE9CDAFA6FDFE99331A6D18D88F7F /* Pods-LineHeightTool_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LineHeightTool_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-LineHeightTool_Tests/Pods-LineHeightTool_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LineHeightTool_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F684D9D396EE6B834477FD4FE72A752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 899BA30A307D985F933AC86FACEC7F91 /* Pods-LineHeightTool_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LineHeightTool_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-LineHeightTool_Example/Pods-LineHeightTool_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LineHeightTool_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5BEEBA82850227358941AD3D2EE6506C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFA418036DBA89AE48E357A208449C4C /* LineHeightTool-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LineHeightTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -536,34 +635,71 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		2B8E1B2FEAC45D7C7CF2DC2A56BD1AB0 /* Release */ = {
+		C3E78D52E24B17A2A33D95983BDF01A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2D19F32F03859D5203E2E3B103E4D60 /* Pods-LineHeightTool_Tests.release.xcconfig */;
+			baseConfigurationReference = DFA418036DBA89AE48E357A208449C4C /* LineHeightTool-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LineHeightTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D808A02A3649DB7DE71A1E65E90A4DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFA418036DBA89AE48E357A208449C4C /* LineHeightTool-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 0.1.0;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LineHeightTool_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LineHeightTool/LineHeightTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LineHeightTool/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-LineHeightTool_Tests/Pods-LineHeightTool_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/LineHeightTool/LineHeightTool.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LineHeightTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB48F84416F68AF8B9AE0B1731760FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFA418036DBA89AE48E357A208449C4C /* LineHeightTool-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LineHeightTool/LineHeightTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LineHeightTool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LineHeightTool/LineHeightTool.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_LineHeightTool_Tests;
+				PRODUCT_NAME = LineHeightTool;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -572,50 +708,9 @@
 			};
 			name = Release;
 		};
-		4B6A2BB94BFA12951D1A506CC8B369D4 /* Debug */ = {
+		F0C7CA69278FFDEB0DAAE5808DEBB939 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB2B2F1D364A071298BFFAF4B980B350 /* LineHeightTool-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = LineHeightTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		600372379E530D3CBD31650A5F1DE270 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11DEB87A08FD1B891C1167E69AB77DA5 /* Pods-LineHeightTool_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LineHeightTool_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-LineHeightTool_Example/Pods-LineHeightTool_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_LineHeightTool_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		78D176965F25656FB39116FEE4A75B05 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F33C3F1C87A1B7865A2D68C9B819411 /* Pods-LineHeightTool_Tests.debug.xcconfig */;
+			baseConfigurationReference = 32CEBC03940A715690294A5DC650C795 /* Pods-LineHeightTool_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -626,7 +721,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-LineHeightTool_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-LineHeightTool_Tests/Pods-LineHeightTool_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -641,128 +736,24 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		84D6EF0461242B639446D42236F259B8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB2B2F1D364A071298BFFAF4B980B350 /* LineHeightTool-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LineHeightTool/LineHeightTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LineHeightTool/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LineHeightTool/LineHeightTool.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = LineHeightTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A239809E4F54FC7E541B214E7E136AF8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB2B2F1D364A071298BFFAF4B980B350 /* LineHeightTool-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LineHeightTool/LineHeightTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LineHeightTool/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LineHeightTool/LineHeightTool.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = LineHeightTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D0D7F631EDEF46DF0BE858B38B57BE7F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB2B2F1D364A071298BFFAF4B980B350 /* LineHeightTool-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = LineHeightTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		D967A0CC211956D944780D7368D3F18C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C365615F93C58BE1FF54A0DCFD6C2D92 /* Pods-LineHeightTool_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LineHeightTool_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-LineHeightTool_Example/Pods-LineHeightTool_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_LineHeightTool_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1248AD233199B5A0D085880F0B426E24 /* Build configuration list for PBXNativeTarget "LineHeightTool-LineHeightTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BEEBA82850227358941AD3D2EE6506C /* Debug */,
+				C3E78D52E24B17A2A33D95983BDF01A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
-				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3CF33A985513076B6D6937E36E04463B /* Build configuration list for PBXNativeTarget "LineHeightTool-LineHeightTool" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4B6A2BB94BFA12951D1A506CC8B369D4 /* Debug */,
-				D0D7F631EDEF46DF0BE858B38B57BE7F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		90B084878AAE8AEF39E29C1C824EDE7B /* Build configuration list for PBXNativeTarget "LineHeightTool" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84D6EF0461242B639446D42236F259B8 /* Debug */,
-				A239809E4F54FC7E541B214E7E136AF8 /* Release */,
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -770,8 +761,17 @@
 		D742E2CBEE9364192880B9DF2235D274 /* Build configuration list for PBXNativeTarget "Pods-LineHeightTool_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				600372379E530D3CBD31650A5F1DE270 /* Debug */,
-				D967A0CC211956D944780D7368D3F18C /* Release */,
+				15541B385492093416454C94933C3A83 /* Debug */,
+				4F684D9D396EE6B834477FD4FE72A752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD119E93CC806E1752B91F86F102377 /* Build configuration list for PBXNativeTarget "LineHeightTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D808A02A3649DB7DE71A1E65E90A4DC4 /* Debug */,
+				EB48F84416F68AF8B9AE0B1731760FDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -779,8 +779,8 @@
 		E8D76F0E2F4F84BEDD1DE9E5B132D6A3 /* Build configuration list for PBXNativeTarget "Pods-LineHeightTool_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				78D176965F25656FB39116FEE4A75B05 /* Debug */,
-				2B8E1B2FEAC45D7C7CF2DC2A56BD1AB0 /* Release */,
+				F0C7CA69278FFDEB0DAAE5808DEBB939 /* Debug */,
+				3D386970F50F87CD05D21E08830246D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

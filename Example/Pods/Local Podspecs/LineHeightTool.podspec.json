@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "summary": "A short description of LineHeightTool.",
   "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/LineHeightTool",
+  "homepage": "https://github.com/maheepk/LineHeightTool",
   "license": "MIT",
   "authors": {
     "Maheep Kaushal": "maheep@punch-agency.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/LineHeightTool.git",
+    "git": "https://github.com/maheepk/LineHeightTool.git",
     "tag": "0.1.0"
   },
   "platforms": {
