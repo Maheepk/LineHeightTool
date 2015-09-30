@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'LineHeightTool_Example', :exclusive => true do
+  pod "LineHeightTool", :path => "../"
+end
+
+target 'LineHeightTool_Tests', :exclusive => true do
+  pod "LineHeightTool", :path => "../"
+
+  
+end
