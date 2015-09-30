@@ -22,6 +22,10 @@ pod "LineHeightTool"
 
 ## Author
 
+Verdi Ergun, verdi@punch-agency.com
+
+## Developer
+
 Maheep Kaushal, maheep@punch-agency.com
 
 ## License

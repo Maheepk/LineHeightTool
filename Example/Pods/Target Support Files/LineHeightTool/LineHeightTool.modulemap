@@ -1,0 +1,6 @@
+framework module LineHeightTool {
+  umbrella header "LineHeightTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

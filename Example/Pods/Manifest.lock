@@ -1,0 +1,14 @@
+PODS:
+  - LineHeightTool (0.1.0)
+
+DEPENDENCIES:
+  - LineHeightTool (from `../`)
+
+EXTERNAL SOURCES:
+  LineHeightTool:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LineHeightTool: 4a03f418a8a3629253d538e9f44fc65e73b63893
+
+COCOAPODS: 0.38.2

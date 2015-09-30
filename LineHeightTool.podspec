@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/LineHeightTool"
+  s.homepage         = "https://github.com/maheepk/LineHeightTool"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Maheep Kaushal" => "maheep@punch-agency.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/LineHeightTool.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/maheepk/LineHeightTool.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
